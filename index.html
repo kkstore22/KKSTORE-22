@@ -4,11 +4,28 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 <title>KKSTORE-22</title>
-<link rel="stylesheet" href="style.css">
 <style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif}
+body{background:#f5f5f5;color:#222}
+header{position:sticky;top:0;background:#fff;display:flex;align-items:center;gap:20px;padding:15px 5%;box-shadow:0 3px 12px rgba(0,0,0,.08)}
+.logo{font-size:30px;font-weight:700;color:#e91e63}
+.search{flex:1;display:flex}.search input{flex:1;padding:12px;border:2px solid #e91e63;border-radius:30px 0 0 30px}
+.search button{padding:12px 18px;border:none;background:#e91e63;color:#fff;border-radius:0 30px 30px 0}
+.actions button{margin-left:8px;padding:10px 16px;border:none;border-radius:20px;background:#ff9800;color:#fff}
+.banner{height:420px;margin:20px auto;width:92%;border-radius:20px;overflow:hidden;position:relative;background:url('https://images.unsplash.com/photo-1483985988355-763728e1935b?w=1400') center/cover}
+.banner:before{content:'';position:absolute;inset:0;background:linear-gradient(to right,rgba(0,0,0,.7),rgba(0,0,0,.2))}
+.text{position:absolute;left:60px;top:50%;transform:translateY(-50%);color:#fff}
+.text h1{font-size:56px}.text p{margin:15px 0;font-size:22px}
+.btn{display:inline-block;padding:14px 28px;background:#e91e63;color:#fff;text-decoration:none;border-radius:30px}
+.offer{width:92%;margin:0 auto 20px;background:#e91e63;color:#fff;padding:12px;border-radius:10px;text-align:center;font-weight:bold}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:20px;padding:30px 5%}
+.card{background:#fff;border-radius:16px;padding:20px;text-align:center;box-shadow:0 4px 12px rgba(0,0,0,.08);transition:.3s}
+.card:hover{transform:translateY(-6px)}
+.card img{width:90px;height:90px}
+.card a{display:inline-block;margin-top:12px;background:#ff9800;color:#fff;text-decoration:none;padding:10px 18px;border-radius:20px}
+footer{background:#222;color:#ddd;text-align:center;padding:40px;margin-top:30px}
 </style>
 </head>
-<script src="script.js"></script>
 <body>
 <header><div class="logo">KKSTORE-22</div><div class="search"><input placeholder="Search products"><button>🔍</button></div><div class="actions"><button>Login</button><button>🛒 Cart</button></div></header>
 <div class="banner"><div class="text"><h1>MEGA SALE</h1><p>Women's Fashion Under ₹299</p><a class="btn" href="#">Shop Now</a></div></div>
