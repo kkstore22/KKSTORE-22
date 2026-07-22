@@ -9,7 +9,7 @@ oldPrice:999,
 discount:"70% OFF",
 rating:4.3,
 delivery:"Free Delivery",
-image:"https://picsum.photos/300/350?random=1"
+image:"https://m.media-amazon.com/images/I/71I53evweVL._AC_UL480_FMwebp_QL65_.jpg"
 },
 
 {
