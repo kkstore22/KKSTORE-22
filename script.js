@@ -25,24 +25,17 @@ function displayProducts(data) {
                 ⭐ ${item.rating}
             </div>
 
-            <h2>
-                ₹${item.price}
-                <span>₹${item.oldPrice}</span>
+            <h2 class="under-price">
+                Under ₹299
             </h2>
-
-            <p class="discount">${item.discount}</p>
 
             <p class="delivery">${item.delivery}</p>
 
             <div class="btns">
 
-                <button onclick="addCart()">
-                    🛒 Cart
-                </button>
-
-                <button onclick="addWish()">
-                    ❤️
-                </button>
+                <a href="${item.link}" target="_blank" class="buy-btn">
+                    🛒 Buy Now
+                </a>
 
             </div>
 
@@ -52,7 +45,6 @@ function displayProducts(data) {
     });
 
 }
-
 // सुरुवातीला सर्व Products दाखवा
 displayProducts(products);
 
