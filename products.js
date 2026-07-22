@@ -3,9 +3,9 @@ const products = [
 {
 id:1,
 name:"Women's Kurti",
-undar:"₹299",
+Price:"₹299",
 image:"https://m.media-amazon.com/images/I/61q9J81mU5L._SY741_.jpg",
-affiliate:"https://link.amazon/B0iQoOycL"
+Buy Now:"https://link.amazon/B0iQoOycL"
 },
 
 {
