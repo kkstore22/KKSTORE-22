@@ -94,3 +94,4 @@ image:"https://m.media-amazon.com/images/I/71Yna+hE0wL._AC_UL480_FMwebp_QL65_.jp
 affiliate:"https://link.amazon/B08SqblYW"
 }
 ];
+
