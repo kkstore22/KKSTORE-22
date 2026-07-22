@@ -309,3 +309,30 @@ margin-left:8px;
     border-radius:8px;
     cursor:pointer;
 }
+/* Under Price */
+.under-price{
+    color:#008000;
+    font-size:22px;
+    font-weight:bold;
+    margin:10px 0;
+}
+
+/* Buy Now Button */
+.buy-btn{
+    display:block;
+    width:100%;
+    background:#FFD814;
+    color:#111;
+    text-align:center;
+    padding:12px;
+    border-radius:50px;
+    text-decoration:none;
+    font-size:16px;
+    font-weight:bold;
+    margin-top:10px;
+    transition:0.3s;
+}
+
+.buy-btn:hover{
+    background:#F7CA00;
+}
