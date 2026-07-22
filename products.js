@@ -2,242 +2,95 @@ const products = [
 
 {
 id:1,
-name:"Women's Floral Kurti",
-category:"Women",
-price:299,
-oldPrice:999,
-discount:"70% OFF",
-rating:4.3,
-delivery:"Free Delivery",
-image:"https://m.media-amazon.com/images/I/71I53evweVL._AC_UL480_FMwebp_QL65_.jpg"
+name:"Women's Kurti",
+undar:"₹299",
+image:"https://m.media-amazon.com/images/I/61q9J81mU5L._SY741_.jpg",
+affiliate:"https://link.amazon/B0iQoOycL"
 },
 
 {
 id:2,
-name:"Printed Cotton Kurti",
-category:"Women",
-price:249,
-oldPrice:799,
-discount:"69% OFF",
-rating:4.2,
-delivery:"Free Delivery",
-image:"https://picsum.photos/300/350?random=2"
+name:"Saree",
+undar:"₹499",
+image:"https://m.media-amazon.com/images/I/71zD6LNDRdL._SX679_.jpg",
+affiliate:"https://link.amazon/B09Kumugl"
 },
 
 {
 id:3,
-name:"Anarkali Kurti",
-category:"Women",
-price:399,
-oldPrice:999,
-discount:"60% OFF",
-rating:4.5,
-delivery:"Free Delivery",
-image:"https://picsum.photos/300/350?random=3"
+name:"westan wear",
+undar:"₹999",
+image:"https://m.media-amazon.com/images/I/713jWuxPG6L._SX679_.jpg",
+affiliate:"https://link.amazon/A09knf8B4"
 },
 
 {
 id:4,
-name:"Women's Saree",
-category:"Women",
-price:499,
-oldPrice:1299,
-discount:"62% OFF",
-rating:4.4,
-delivery:"Free Delivery",
-image:"https://picsum.photos/300/350?random=4"
+name:"Ethnic Wear",
+undar:"₹999",
+image:"https://m.media-amazon.com/images/I/71fv2bcy+4L._SY879_.jpg",
+affiliate:"https://link.amazon/B06NNROjZ"
 },
 
 {
 id:5,
-name:"Beauty Face Cream",
-category:"Beauty",
-price:199,
-oldPrice:499,
-discount:"60% OFF",
-rating:4.5,
-delivery:"Free Delivery",
-image:"https://picsum.photos/300/350?random=5"
+name:"Men t-sharts",
+undar:"₹199",
+image:"https://m.media-amazon.com/images/I/61LjId389cL._AC_UL480_QL65_.jpg",
+affiliate:"https://link.amazon/B08Ka8OQt"
 },
 
 {
 id:6,
-name:"Face Wash",
-category:"Beauty",
-price:149,
-oldPrice:399,
-discount:"63% OFF",
-rating:4.3,
-delivery:"Free Delivery",
-image:"https://picsum.photos/300/350?random=6"
+name:"Combo Offers undar ",
+undar:"₹500",
+image:"https://m.media-amazon.com/images/I/61Z-qQuz3XL._AC_UL480_FMwebp_QL65_.jpg",
+affiliate:"https://link.amazon/B0bMMguFr"
 },
-
 {
 id:7,
-name:"Lipstick Combo",
-category:"Beauty",
-price:249,
-oldPrice:699,
-discount:"64% OFF",
-rating:4.6,
-delivery:"Free Delivery",
-image:"https://picsum.photos/300/350?random=7"
+name:"Mens shart",
+undar:"₹499",
+image:"https://m.media-amazon.com/images/I/61GOTzXwn8L._AC_UL480_FMwebp_QL65_.jpg",
+affiliate:"https://link.amazon/B0iUrkCkD"
 },
 
 {
 id:8,
-name:"Sports Shoes",
-category:"Footwear",
-price:499,
-oldPrice:999,
-discount:"50% OFF",
-rating:4.4,
-delivery:"Free Delivery",
-image:"https://picsum.photos/300/350?random=8"
+name:"Wireless Earbuds",
+undar:"₹999",
+image:"https://m.media-amazon.com/images/I/61ddMjOHZXL._AC_UL480_FMwebp_QL65_.jpg",
+affiliate:"https://link.amazon/B0935GPxA"
 },
 
 {
 id:9,
-name:"Casual Shoes",
-category:"Footwear",
-price:599,
-oldPrice:1299,
-discount:"54% OFF",
-rating:4.5,
-delivery:"Free Delivery",
-image:"https://picsum.photos/300/350?random=9"
+name:"Smart Watch",
+undar:"₹999",
+image:"https://m.media-amazon.com/images/I/71dd68N70FL._AC_UY327_FMwebp_QL65_.jpg",
+affiliate:"https://link.amazon/B06PixhCj"
 },
-
 {
 id:10,
-name:"Women's Sandal",
-category:"Footwear",
-price:349,
-oldPrice:799,
-discount:"56% OFF",
-rating:4.2,
-delivery:"Free Delivery",
-image:"https://picsum.photos/300/350?random=10"
+name:"Mobile covers",
+undar:"₹299",
+image:"https://m.media-amazon.com/images/I/41Cqs5O+2CL._SY300_SX300_QL70_FMwebp_.jpg",
+affiliate:"https://link.amazon/B09RrxkLC"
 },
 
 {
 id:11,
-name:"Kitchen Storage Box",
-category:"Home & Kitchen",
-price:299,
-oldPrice:699,
-discount:"57% OFF",
-rating:4.0,
-delivery:"Free Delivery",
-image:"https://picsum.photos/300/350?random=11"
+name:"Power Bank",
+undar:"₹999",
+image:"https://m.media-amazon.com/images/I/61FEiRJcFiL._AC_UL480_FMwebp_QL65_.jpg",
+affiliate:"https://link.amazon/B050lJRDh"
 },
 
 {
 id:12,
-name:"Lunch Box",
-category:"Home & Kitchen",
-price:399,
-oldPrice:899,
-discount:"55% OFF",
-rating:4.5,
-delivery:"Free Delivery",
-image:"https://picsum.photos/300/350?random=12"
-},
-
-{
-id:13,
-name:"Wall Clock",
-category:"Home & Kitchen",
-price:499,
-oldPrice:999,
-discount:"50% OFF",
-rating:4.4,
-delivery:"Free Delivery",
-image:"https://picsum.photos/300/350?random=13"
-},
-
-{
-id:14,
-name:"Wrist Watch",
-category:"Watches",
-price:399,
-oldPrice:999,
-discount:"60% OFF",
-rating:4.6,
-delivery:"Free Delivery",
-image:"https://picsum.photos/300/350?random=14"
-},
-
-{
-id:15,
-name:"Smart Watch",
-category:"Watches",
-price:999,
-oldPrice:2499,
-discount:"60% OFF",
-rating:4.8,
-delivery:"Free Delivery",
-image:"https://picsum.photos/300/350?random=15"
-},
-
-{
-id:16,
-name:"Bluetooth Speaker",
-category:"Electronics",
-price:699,
-oldPrice:1499,
-discount:"53% OFF",
-rating:4.5,
-delivery:"Free Delivery",
-image:"https://picsum.photos/300/350?random=16"
-},
-
-{
-id:17,
-name:"Wireless Earbuds",
-category:"Electronics",
-price:899,
-oldPrice:1999,
-discount:"55% OFF",
-rating:4.7,
-delivery:"Free Delivery",
-image:"https://picsum.photos/300/350?random=17"
-},
-
-{
-id:18,
-name:"Power Bank",
-category:"Electronics",
-price:799,
-oldPrice:1599,
-discount:"50% OFF",
-rating:4.4,
-delivery:"Free Delivery",
-image:"https://picsum.photos/300/350?random=18"
-},
-
-{
-id:19,
-name:"Bike Mobile Holder",
-category:"Car & Bike",
-price:299,
-oldPrice:599,
-discount:"50% OFF",
-rating:4.3,
-delivery:"Free Delivery",
-image:"https://picsum.photos/300/350?random=19"
-},
-
-{
-id:20,
-name:"Car Vacuum Cleaner",
-category:"Car & Bike",
-price:899,
-oldPrice:1999,
-discount:"55% OFF",
-rating:4.6,
-delivery:"Free Delivery",
-image:"https://picsum.photos/300/350?random=20"
+name:"Kitchen Gadgets",
+price:"₹999",
+image:"https://m.media-amazon.com/images/I/71Yna+hE0wL._AC_UL480_FMwebp_QL65_.jpg",
+affiliate:"https://link.amazon/B08SqblYW"
 }
-
 ];
