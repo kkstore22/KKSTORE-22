@@ -27,15 +27,15 @@ const products = [
 
 {
   id: 3,
-  name: "Women's Floral Kurti",
+  name: "Kurtis & Kurta Sets",
   category: "Women",
-  price: 299,
+  price: 299 to 999,
   oldPrice: 999,
   discount: "70% OFF",
   rating: 4.3,
   delivery: "Free Delivery",
-  image: "#",
-  link: "#"
+  image: "https://rukminim2.flixcart.com/image/612/612/xif0q/ethnic-set/z/r/v/xxl-tie-dye-001-fabunna-cotton-resized-original-imahgbgawqeadk8q.jpeg?q=70",
+  link: "https://fktr.in/46fMzrq"
 },
 {
   id: 4,
