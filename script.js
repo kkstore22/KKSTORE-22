@@ -35,10 +35,7 @@ function displayProducts(data) {
             <p class="delivery">${item.delivery}</p>
 
             <div class="btns">
-             <a href="#" target="_blank" class="buy-btn">
-        🛍️ Buy Now
-    </a>
-
+            
                 <button onclick="addCart()">
                     🛒 Cart
                 </button>
