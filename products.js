@@ -1,53 +1,54 @@
 const products = [
 
 {
-id:1,
-name:"Women's Floral Kurti",
-category:"Women",
-price:299,
-oldPrice:999,
-discount:"70% OFF",
-rating:4.3,
-delivery:"Free Delivery",
-image:"https://picsum.photos/300/350?random=1"
+  id: 1,
+  name: "Women's Floral Kurti",
+  category: "Women",
+  price: 299,
+  oldPrice: 999,
+  discount: "70% OFF",
+  rating: 4.3,
+  delivery: "Free Delivery",
+  image: "#",
+  link: "#"
+},
+{
+  id: 2,
+  name: "Women's Floral Kurti",
+  category: "Women",
+  price: 299,
+  oldPrice: 999,
+  discount: "70% OFF",
+  rating: 4.3,
+  delivery: "Free Delivery",
+  image: "#",
+  link: "#"
 },
 
 {
-id:2,
-name:"Printed Cotton Kurti",
-category:"Women",
-price:249,
-oldPrice:799,
-discount:"69% OFF",
-rating:4.2,
-delivery:"Free Delivery",
-image:"https://picsum.photos/300/350?random=2"
+  id: 3,
+  name: "Women's Floral Kurti",
+  category: "Women",
+  price: 299,
+  oldPrice: 999,
+  discount: "70% OFF",
+  rating: 4.3,
+  delivery: "Free Delivery",
+  image: "#",
+  link: "#"
 },
-
 {
-id:3,
-name:"Anarkali Kurti",
-category:"Women",
-price:399,
-oldPrice:999,
-discount:"60% OFF",
-rating:4.5,
-delivery:"Free Delivery",
-image:"https://picsum.photos/300/350?random=3"
+  id: 4,
+  name: "Women's Floral Kurti",
+  category: "Women",
+  price: 299,
+  oldPrice: 999,
+  discount: "70% OFF",
+  rating: 4.3,
+  delivery: "Free Delivery",
+  image: "#",
+  link: "#"
 },
-
-{
-id:4,
-name:"Women's Saree",
-category:"Women",
-price:499,
-oldPrice:1299,
-discount:"62% OFF",
-rating:4.4,
-delivery:"Free Delivery",
-image:"https://picsum.photos/300/350?random=4"
-},
-
 {
 id:5,
 name:"Beauty Face Cream",
