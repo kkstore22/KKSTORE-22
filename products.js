@@ -10,6 +10,7 @@ discount:"70% OFF",
 rating:4.3,
 delivery:"Free Delivery",
 image:"https://picsum.photos/300/350?random=1"
+link:"YOUR_AFFILIATE_LINK"
 },
 
 {
@@ -22,6 +23,7 @@ discount:"69% OFF",
 rating:4.2,
 delivery:"Free Delivery",
 image:"https://picsum.photos/300/350?random=2"
+link:"YOUR_AFFILIATE_LINK"
 },
 
 {
@@ -34,6 +36,7 @@ discount:"60% OFF",
 rating:4.5,
 delivery:"Free Delivery",
 image:"https://picsum.photos/300/350?random=3"
+link:"YOUR_AFFILIATE_LINK"
 },
 
 {
@@ -46,6 +49,7 @@ discount:"62% OFF",
 rating:4.4,
 delivery:"Free Delivery",
 image:"https://picsum.photos/300/350?random=4"
+link:"YOUR_AFFILIATE_LINK"
 },
 
 {
@@ -58,6 +62,7 @@ discount:"60% OFF",
 rating:4.5,
 delivery:"Free Delivery",
 image:"https://picsum.photos/300/350?random=5"
+link:"YOUR_AFFILIATE_LINK"
 },
 
 {
@@ -70,6 +75,7 @@ discount:"63% OFF",
 rating:4.3,
 delivery:"Free Delivery",
 image:"https://picsum.photos/300/350?random=6"
+link:"YOUR_AFFILIATE_LINK"
 },
 
 {
@@ -82,6 +88,7 @@ discount:"64% OFF",
 rating:4.6,
 delivery:"Free Delivery",
 image:"https://picsum.photos/300/350?random=7"
+link:"YOUR_AFFILIATE_LINK"
 },
 
 {
@@ -94,6 +101,7 @@ discount:"50% OFF",
 rating:4.4,
 delivery:"Free Delivery",
 image:"https://picsum.photos/300/350?random=8"
+link:"YOUR_AFFILIATE_LINK"
 },
 
 {
@@ -106,6 +114,7 @@ discount:"54% OFF",
 rating:4.5,
 delivery:"Free Delivery",
 image:"https://picsum.photos/300/350?random=9"
+link:"YOUR_AFFILIATE_LINK"
 },
 
 {
@@ -118,6 +127,7 @@ discount:"56% OFF",
 rating:4.2,
 delivery:"Free Delivery",
 image:"https://picsum.photos/300/350?random=10"
+link:"YOUR_AFFILIATE_LINK"
 },
 
 {
@@ -130,6 +140,7 @@ discount:"57% OFF",
 rating:4.0,
 delivery:"Free Delivery",
 image:"https://picsum.photos/300/350?random=11"
+link:"YOUR_AFFILIATE_LINK"
 },
 
 {
@@ -142,6 +153,7 @@ discount:"55% OFF",
 rating:4.5,
 delivery:"Free Delivery",
 image:"https://picsum.photos/300/350?random=12"
+link:"YOUR_AFFILIATE_LINK"
 },
 
 {
@@ -154,6 +166,7 @@ discount:"50% OFF",
 rating:4.4,
 delivery:"Free Delivery",
 image:"https://picsum.photos/300/350?random=13"
+link:"YOUR_AFFILIATE_LINK"
 },
 
 {
@@ -166,6 +179,7 @@ discount:"60% OFF",
 rating:4.6,
 delivery:"Free Delivery",
 image:"https://picsum.photos/300/350?random=14"
+link:"YOUR_AFFILIATE_LINK"
 },
 
 {
@@ -178,6 +192,7 @@ discount:"60% OFF",
 rating:4.8,
 delivery:"Free Delivery",
 image:"https://picsum.photos/300/350?random=15"
+link:"YOUR_AFFILIATE_LINK"
 },
 
 {
@@ -190,6 +205,7 @@ discount:"53% OFF",
 rating:4.5,
 delivery:"Free Delivery",
 image:"https://picsum.photos/300/350?random=16"
+link:"YOUR_AFFILIATE_LINK"
 },
 
 {
@@ -202,6 +218,7 @@ discount:"55% OFF",
 rating:4.7,
 delivery:"Free Delivery",
 image:"https://picsum.photos/300/350?random=17"
+link:"YOUR_AFFILIATE_LINK"
 },
 
 {
@@ -214,6 +231,7 @@ discount:"50% OFF",
 rating:4.4,
 delivery:"Free Delivery",
 image:"https://picsum.photos/300/350?random=18"
+link:"YOUR_AFFILIATE_LINK"
 },
 
 {
@@ -226,6 +244,7 @@ discount:"50% OFF",
 rating:4.3,
 delivery:"Free Delivery",
 image:"https://picsum.photos/300/350?random=19"
+link:"YOUR_AFFILIATE_LINK"
 },
 
 {
@@ -238,6 +257,7 @@ discount:"55% OFF",
 rating:4.6,
 delivery:"Free Delivery",
 image:"https://picsum.photos/300/350?random=20"
+link:"YOUR_AFFILIATE_LINK"
 }
 
 ];
