@@ -43,7 +43,9 @@ function displayProducts(data) {
                 <button onclick="addWish()">
                     ❤️
                 </button>
-
+                <a href="${item.link}" class="buy-btn" target="_blank">
+    Buy Now
+</a>
             </div>
 
         </div>
