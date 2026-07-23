@@ -16,13 +16,13 @@ const products = [
   id: 2,
   name: "Women's Floral Kurti",
   category: "Women",
-  price: 299,
+  price: 388,
   oldPrice: 999,
   discount: "70% OFF",
   rating: 4.3,
   delivery: "Free Delivery",
-  image: "#",
-  link: "#"
+  image: "https://rukminim1.flixcart.com/image/3072/3072/xif0q/kurta/o/n/i/l-vc-red-sambshiv-original-imahpcujf33yapr2.jpeg?q=90",
+  link: "https://fktr.in/z7tk6Q3"
 },
 
 {
