@@ -36,16 +36,14 @@ function displayProducts(data) {
 
             <div class="btns">
 
-                <button onclick="addCart()">
-                    🛒 Cart
+                <button onclick="Buy Now()">
+                    🛒 Buy Now
                 </button>
 
                 <button onclick="addWish()">
                     ❤️
                 </button>
-                <a href="${item.link}" class="buy-btn" target="_blank">
-    Buy Now
-</a>
+                
             </div>
 
         </div>
