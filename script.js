@@ -2,12 +2,15 @@
 // KKSTORE-22 Script
 // ===============================
 
-let cart = [];
-let wishlist = [];
+// Cart & Wishlist Count
+let cart = 0;
+let wishlist = 0;
 
 const container = document.getElementById("products");
 
-// Products दाखवण्यासाठी Function
+// ===============================
+// Display Products
+// ===============================
 function displayProducts(data) {
 
     container.innerHTML = "";
@@ -17,7 +20,7 @@ function displayProducts(data) {
         container.innerHTML += `
         <div class="card">
 
-            <img src="${item.image}" alt="${item.name}">
+            <img src="${item.image}" alt="${item.name}" onclick='openProduct(${JSON.stringify(item)})'>
 
             <h3>${item.name}</h3>
 
@@ -36,13 +39,20 @@ function displayProducts(data) {
 
             <div class="btns">
 
-                <a href="${item.link}" class="buy-btn" target="_blank">
-    Buy Now
-</a>
-                <button onclick="addWish()">
-                    ❤️
+                <button onclick="addWish()" class="wish-btn">
+                    ❤️ Wishlist
                 </button>
-                
+
+                <button onclick="addCart()" class="cart-btn">
+                    🛒 Cart
+                </button>
+
+                <a href="${item.link}" target="_blank">
+                    <button class="buy-btn">
+                        Buy Now
+                    </button>
+                </a>
+
             </div>
 
         </div>
@@ -52,31 +62,32 @@ function displayProducts(data) {
 
 }
 
-// सुरुवातीला सर्व Products दाखवा
 displayProducts(products);
 
 // ===============================
 // Search
 // ===============================
-
 const search = document.getElementById("search");
 
-search.addEventListener("keyup", function () {
+if (search) {
 
-    const value = this.value.toLowerCase();
+    search.addEventListener("keyup", function () {
 
-    const filtered = products.filter(item =>
-        item.name.toLowerCase().includes(value)
-    );
+        const value = this.value.toLowerCase();
 
-    displayProducts(filtered);
+        const filtered = products.filter(item =>
+            item.name.toLowerCase().includes(value)
+        );
 
-});
+        displayProducts(filtered);
+
+    });
+
+}
 
 // ===============================
 // Category Filter
 // ===============================
-
 document.querySelectorAll(".cat").forEach(btn => {
 
     btn.addEventListener("click", function () {
@@ -104,7 +115,6 @@ document.querySelectorAll(".cat").forEach(btn => {
 // ===============================
 // Cart
 // ===============================
-
 function addCart() {
 
     cart++;
@@ -116,7 +126,6 @@ function addCart() {
 // ===============================
 // Wishlist
 // ===============================
-
 function addWish() {
 
     wishlist++;
@@ -124,62 +133,74 @@ function addWish() {
     document.getElementById("wishlist-count").innerText = wishlist;
 
 }
-// Banner Slider
 
+// ===============================
+// Banner Slider
+// ===============================
 let slideIndex = 0;
 
 const slides = document.querySelectorAll(".slide");
 
-function showSlides(){
+function showSlides() {
 
-    slides.forEach(slide=>slide.classList.remove("active"));
+    slides.forEach(slide => slide.classList.remove("active"));
 
     slideIndex++;
 
-    if(slideIndex>slides.length){
+    if (slideIndex > slides.length) {
 
-        slideIndex=1;
+        slideIndex = 1;
 
     }
 
-    slides[slideIndex-1].classList.add("active");
+    slides[slideIndex - 1].classList.add("active");
 
 }
 
-showSlides();
+if (slides.length > 0) {
 
-setInterval(showSlides,3000);
-const modal=document.getElementById("productModal");
+    showSlides();
 
-const close=document.querySelector(".close");
-
-function openProduct(product){
-
-    modal.style.display="block";
-
-    document.getElementById("modalImage").src=product.image;
-
-    document.getElementById("modalName").innerText=product.name;
-
-    document.getElementById("modalPrice").innerText="₹"+product.price;
-
-    document.getElementById("modalRating").innerText="⭐ "+product.rating;
-
-    document.getElementById("modalDelivery").innerText=product.delivery;
+    setInterval(showSlides, 3000);
 
 }
 
-close.onclick=function(){
+// ===============================
+// Product Modal
+// ===============================
+const modal = document.getElementById("productModal");
 
-    modal.style.display="none";
+const close = document.querySelector(".close");
+
+function openProduct(product) {
+
+    modal.style.display = "block";
+
+    document.getElementById("modalImage").src = product.image;
+
+    document.getElementById("modalName").innerText = product.name;
+
+    document.getElementById("modalPrice").innerText = "₹" + product.price;
+
+    document.getElementById("modalRating").innerText = "⭐ " + product.rating;
+
+    document.getElementById("modalDelivery").innerText = product.delivery;
+
+    document.getElementById("buyNowLink").href = product.link;
 
 }
 
-window.onclick=function(e){
+close.onclick = function () {
 
-    if(e.target==modal){
+    modal.style.display = "none";
 
-        modal.style.display="none";
+}
+
+window.onclick = function (e) {
+
+    if (e.target == modal) {
+
+        modal.style.display = "none";
 
     }
 
