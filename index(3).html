@@ -1,45 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>KKSTORE-22</title>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KKSTORE-22</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
 <header class="header">
-<h1>KKSTORE-22</h1>
-<input type="search" placeholder="Search products...">
-<nav>
-<a href="#"><i class="fa-regular fa-heart"></i> Wishlist <span id="wishlist-count">0</span></a>
-<a href="#"><i class="fa-solid fa-cart-shopping"></i> Cart <span id="cart-count">0</span></a>
-</nav>
+
+    <h1 class="logo">KKSTORE-22</h1>
+
+    <input
+        type="search"
+        id="search"
+        placeholder="Search Products..."
+    >
+
+    <nav>
+
+        <a href="#">
+            <i class="fa-regular fa-heart"></i>
+            Wishlist
+            <span id="wishlist-count">0</span>
+        </a>
+
+        <a href="#">
+            <i class="fa-solid fa-cart-shopping"></i>
+            Cart
+            <span id="cart-count">0</span>
+        </a>
+
+    </nav>
+
 </header>
 
+<!-- Banner Slider -->
+
 <div class="slider">
-<img src="https://images-eu.ssl-images-amazon.com/images/G/31/img24/Wireless/Mounika/July9/D351705487_WLD_WD-campaign-GW_Desktop-Hero_1000x500._CB758973735_.jpg" class="slide active">
-<img src="https://images-eu.ssl-images-amazon.com/images/G/31/Pharmacy/Gateway26/Hero/July22_PC_Hero_3_1000x500._CB757418205_.jpg" class="slide">
+
+    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img24/Wireless/Mounika/July9/D351705487_WLD_WD-campaign-GW_Desktop-Hero_1000x500._CB758973735_.jpg" class="slide active" alt="Banner">
+
+    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/Pharmacy/Gateway26/Hero/July22_PC_Hero_3_1000x500._CB757418205_.jpg" class="slide" alt="Banner">
+
+    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/LA/BAU_Hero_1000X750_WM_2x._CB759100171_.jpg" class="slide" alt="Banner">
+
 </div>
 
-<section>
-<h2>Trending Products</h2>
-<div id="products" class="products"></div>
+<!-- Trending Products -->
+
+<section class="products-section">
+
+    <h2>Trending Products</h2>
+
+    <div id="products" class="products"></div>
+
 </section>
 
+<!-- Product Modal -->
+
 <div id="productModal" class="modal">
-<div class="modal-content">
-<span class="close">&times;</span>
-<img id="modalImage">
-<h2 id="modalName"></h2>
-<h3 id="modalPrice"></h3>
-<p id="modalRating"></p>
-<p id="modalDelivery"></p>
-<a id="buyNowLink" href="#" target="_blank"><button class="buy-btn">Buy Now</button></a>
+
+    <div class="modal-content">
+
+        <span class="close">&times;</span>
+
+        <img id="modalImage" alt="Product">
+
+        <h2 id="modalName"></h2>
+
+        <h3 id="modalPrice"></h3>
+
+        <p id="modalRating"></p>
+
+        <p id="modalDelivery"></p>
+
+        <a id="buyNowLink" href="#" target="_blank">
+            <button class="buy-btn">Buy Now</button>
+        </a>
+
+    </div>
+
 </div>
-</div>
+
+<footer>
+
+    <p>© 2026 KKSTORE-22. All Rights Reserved.</p>
+
+</footer>
 
 <script src="products.js"></script>
 <script src="script.js"></script>
+
 </body>
 </html>
