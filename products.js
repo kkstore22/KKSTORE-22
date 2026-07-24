@@ -29,7 +29,7 @@ const products = [
   id: 3,
   name: "Kurtis & Kurta Sets",
   category: "Women",
-  price: 299 to 999,
+  price: 299
   oldPrice: 999,
   discount: "70% OFF",
   rating: 4.3,
