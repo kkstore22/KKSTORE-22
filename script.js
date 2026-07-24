@@ -111,7 +111,21 @@ document.querySelectorAll(".cat").forEach(btn => {
     });
 
 });
+document.querySelectorAll(".sub").forEach(btn=>{
 
+btn.addEventListener("click",()=>{
+
+let sub = btn.dataset.sub;
+
+let filteredProducts = products.filter(item =>
+item.subcategory === sub
+);
+
+displayProducts(filteredProducts);
+
+});
+
+});
 // ===============================
 // Cart
 // ===============================
