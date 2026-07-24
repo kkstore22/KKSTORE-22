@@ -111,19 +111,23 @@ document.querySelectorAll(".cat").forEach(btn => {
     });
 
 });
-document.querySelectorAll(".sub").forEach(btn=>{
+// ===============================
+// Sub Category Filter
+// ===============================
 
-btn.addEventListener("click",()=>{
+document.querySelectorAll(".sub").forEach(btn => {
 
-let sub = btn.dataset.sub;
+    btn.addEventListener("click", function(){
 
-let filteredProducts = products.filter(item =>
-item.subcategory === sub
-);
+        const subCategory = this.dataset.sub;
 
-displayProducts(filteredProducts);
+        const filtered = products.filter(item =>
+            item.subcategory === subCategory
+        );
 
-});
+        displayProducts(filtered);
+
+    });
 
 });
 // ===============================
