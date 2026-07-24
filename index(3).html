@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>KKSTORE-22</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header">
+<h1>KKSTORE-22</h1>
+<input type="search" placeholder="Search products...">
+<nav>
+<a href="#"><i class="fa-regular fa-heart"></i> Wishlist <span id="wishlist-count">0</span></a>
+<a href="#"><i class="fa-solid fa-cart-shopping"></i> Cart <span id="cart-count">0</span></a>
+</nav>
+</header>
+
+<div class="slider">
+<img src="https://images-eu.ssl-images-amazon.com/images/G/31/img24/Wireless/Mounika/July9/D351705487_WLD_WD-campaign-GW_Desktop-Hero_1000x500._CB758973735_.jpg" class="slide active">
+<img src="https://images-eu.ssl-images-amazon.com/images/G/31/Pharmacy/Gateway26/Hero/July22_PC_Hero_3_1000x500._CB757418205_.jpg" class="slide">
+</div>
+
+<section>
+<h2>Trending Products</h2>
+<div id="products" class="products"></div>
+</section>
+
+<div id="productModal" class="modal">
+<div class="modal-content">
+<span class="close">&times;</span>
+<img id="modalImage">
+<h2 id="modalName"></h2>
+<h3 id="modalPrice"></h3>
+<p id="modalRating"></p>
+<p id="modalDelivery"></p>
+<a id="buyNowLink" href="#" target="_blank"><button class="buy-btn">Buy Now</button></a>
+</div>
+</div>
+
+<script src="products.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
