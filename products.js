@@ -130,6 +130,4 @@ link:"https://fktr.in/46fMzrq"
     link:"#"
 }
 
-const products = [
-   ...
 ];
