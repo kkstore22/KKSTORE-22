@@ -402,3 +402,29 @@ footer{
     }
 
 }
+/* Categories */
+
+.categories{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:15px;
+    padding:20px;
+    background:#fff;
+    border-bottom:1px solid #ddd;
+}
+
+.cat{
+    padding:10px 20px;
+    border:none;
+    border-radius:30px;
+    background:#ff9900;
+    color:#fff;
+    font-size:16px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.cat:hover{
+    background:#e67e00;
+}
