@@ -12,7 +12,7 @@ delivery:"Free Delivery",
 image:"https://rukminim2.flixcart.com/image/612/612/xif0q/shopsy-kurta/1/7/i/-resized-original-imahhx3ctnqfafhn.jpeg?q=70",
 link:"https://fktr.in/hjfa880"
 },
-
+    
 {
 id:2,
 name:"Women's Floral Kurti",
