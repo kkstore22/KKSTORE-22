@@ -55,10 +55,11 @@
 <!-- Categories -->
 <section class="categories">
 
-    <button class="cat" data-category="All">All</button>
-<button onclick="toggleSub('women')">Women's Fashion</button>
+<button class="cat" onclick="showAll()">All</button>
 
-<div id="women" class="subcategory" style="display:none;">
+<!-- Women's Fashion -->
+<button class="cat" onclick="toggleSub('women')">Women's Fashion</button>
+<div id="women" class="subcategory">
   <span>Kurtis</span>
   <span>Sarees</span>
   <span>Tops</span>
@@ -69,18 +70,35 @@
   <span>Nightwear</span>
   <span>Jewellery</span>
   <span>Handbags</span>
-</div><button class="cat" data-category="Men">Men's Fashion</button>
-<button class="cat" data-category="Mobile">Mobile</button>
-<button class="cat" data-category="Electronics">Electronics</button>
-<button class="cat" data-category="Beauty">Beauty</button>
-<button class="cat" data-category="Footwear">Footwear</button>
-<button class="cat" data-category="Home">Home & Kitchen</button>
-<button class="cat" data-category="Grocery">Grocery</button>
-<button class="cat" data-category="Watches">Watches</button>
-<button class="cat" data-category="Kurtas">Kurtas Under ₹299</button>
+</div>
+
+<!-- Men's Fashion -->
+<button class="cat" onclick="toggleSub('men')">Men's Fashion</button>
+<div id="men" class="subcategory">
+  <span>T-Shirts</span>
+  <span>Shirts</span>
+  <span>Jeans</span>
+  <span>Jackets</span>
+</div>
+
+<!-- Electronics -->
+<button class="cat" onclick="toggleSub('electronics')">Electronics</button>
+<div id="electronics" class="subcategory">
+  <span>Mobiles</span>
+  <span>Laptops</span>
+  <span>Headphones</span>
+</div>
+
+<!-- बाकी simple category -->
+<button class="cat">Mobile</button>
+<button class="cat">Beauty</button>
+<button class="cat">Footwear</button>
+<button class="cat">Home & Kitchen</button>
+<button class="cat">Grocery</button>
+<button class="cat">Watches</button>
+<button class="cat">Kurtas Under ₹299</button>
 
 </section>
-
 <!-- Products -->
 <section class="products-section">
 
