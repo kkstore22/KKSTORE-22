@@ -122,6 +122,14 @@
 
 <script src="products.js"></script>
 <script src="script.js"></script>
+<script>
+function toggleSub(id) {
+  document.querySelectorAll('.subcategory').forEach(el => {
+    el.style.display = 'none';
+  });
 
+  document.getElementById(id).style.display = 'block';
+}
+</script>
 </body>
 </html>
