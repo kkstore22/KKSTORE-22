@@ -20,7 +20,7 @@ function displayProducts(data) {
         container.innerHTML += `
         <div class="card">
 
-            <img src="${item.image}" alt="${item.name}" onclick='openProduct(${JSON.stringify(item)})'>
+           <img src="${item.image}" alt="${item.name}" onclick="openProduct(${item.id})">
 
             <h3>${item.name}</h3>
 
