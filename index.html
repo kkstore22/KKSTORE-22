@@ -142,11 +142,22 @@
 <script src="script.js"></script>
 <script>
 function toggleSub(id) {
-  document.querySelectorAll('.subcategory').forEach(el => {
-    el.style.display = 'none';
-  });
+  let all = document.querySelectorAll('.subcategory');
 
-  document.getElementById(id).style.display = 'block';
+  all.forEach(el => {
+    if (el.id === id) {
+      // toggle show/hide
+      el.style.display = (el.style.display === "block") ? "none" : "block";
+    } else {
+      el.style.display = "none";
+    }
+  });
+}
+
+function showAll() {
+  document.querySelectorAll('.subcategory').forEach(el => {
+    el.style.display = "none";
+  });
 }
 </script>
 </body>
