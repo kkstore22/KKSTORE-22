@@ -6,59 +6,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KKSTORE-22</title>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- Header -->
-    <header class="header">
+<!-- Header -->
+<header class="header">
 
-        <h1 class="logo">KKSTORE-22</h1>
+    <h1 class="logo">KKSTORE-22</h1>
 
-<div class="search-box">
-    <input type="search" id="search" placeholder="Search Products...">
-    <button>
-        <i class="fa-solid fa-magnifying-glass"></i>
-    </button>
-</div>
-
-<nav class="menu">
-    <a href="#">
-        <i class="fa-regular fa-heart"></i>
-        Wishlist
-        <span id="wishlist-count">0</span>
-    </a>
-
-    <a href="#">
-        <i class="fa-solid fa-cart-shopping"></i>
-        Cart
-        <span id="cart-count">0</span>
-    </a>
-</nav>
-
-    </header>
-
-    <!-- Banner Slider -->
-    <div class="slider">
-
-        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img24/Wireless/Mounika/July9/D351705487_WLD_WD-campaign-GW_Desktop-Hero_1000x500._CB758973735_.jpg"
-            class="slide active" alt="Banner">
-
-        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/Pharmacy/Gateway26/Hero/July22_PC_Hero_3_1000x500._CB757418205_.jpg"
-            class="slide" alt="Banner">
-
-        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/LA/BAU_Hero_1000X750_WM_2x._CB759100171_.jpg"
-            class="slide" alt="Banner">
-
+    <div class="search-box">
+        <input type="search" id="search" placeholder="Search Products...">
+        <button>
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
     </div>
+
+    <nav class="menu">
+
+        <a href="#">
+            <i class="fa-regular fa-heart"></i>
+            Wishlist
+            <span id="wishlist-count">0</span>
+        </a>
+
+        <a href="#">
+            <i class="fa-solid fa-cart-shopping"></i>
+            Cart
+            <span id="cart-count">0</span>
+        </a>
+
+    </nav>
+
+</header>
+
 <!-- Banner Slider -->
 <div class="slider">
 
-    <img src="banner1.jpg" class="slide active">
-    <img src="banner2.jpg" class="slide">
-    <img src="banner3.jpg" class="slide">
+    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img24/Wireless/Mounika/July9/D351705487_WLD_WD-campaign-GW_Desktop-Hero_1000x500._CB758973735_.jpg"
+        class="slide active" alt="Banner">
+
+    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/Pharmacy/Gateway26/Hero/July22_PC_Hero_3_1000x500._CB757418205_.jpg"
+        class="slide" alt="Banner">
+
+    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/LA/BAU_Hero_1000X750_WM_2x._CB759100171_.jpg"
+        class="slide" alt="Banner">
 
 </div>
 
@@ -79,47 +75,46 @@
 </section>
 
 <!-- Products -->
-<section>
+<section class="products-section">
 
     <h2>Trending Products</h2>
 
     <div id="products" class="products"></div>
 
 </section>
-    <!-- Product Modal -->
-    <div id="productModal" class="modal">
 
-        <div class="modal-content">
+<!-- Product Modal -->
+<div id="productModal" class="modal">
 
-            <span class="close">&times;</span>
+    <div class="modal-content">
 
-            <img id="modalImage" alt="Product">
+        <span class="close">&times;</span>
 
-            <h2 id="modalName"></h2>
+        <img id="modalImage" alt="Product">
 
-            <h3 id="modalPrice"></h3>
+        <h2 id="modalName"></h2>
 
-            <p id="modalRating"></p>
+        <h3 id="modalPrice"></h3>
 
-            <p id="modalDelivery"></p>
+        <p id="modalRating"></p>
 
-            <a id="buyNowLink" href="#" target="_blank">
-                <button class="buy-btn">Buy Now</button>
-            </a>
+        <p id="modalDelivery"></p>
 
-        </div>
+        <a id="buyNowLink" href="#" target="_blank">
+            <button class="buy-btn">Buy Now</button>
+        </a>
 
     </div>
 
-    <!-- Footer -->
-    <footer>
-        <p>© 2026 KKSTORE-22. All Rights Reserved.</p>
-    </footer>
+</div>
 
-    <!-- JavaScript -->
-    <script src="products.js"></script>
-    <script src="script.js"></script>
+<!-- Footer -->
+<footer>
+    <p>© 2026 KKSTORE-22. All Rights Reserved.</p>
+</footer>
+
+<script src="products.js"></script>
+<script src="script.js"></script>
 
 </body>
-
 </html>
