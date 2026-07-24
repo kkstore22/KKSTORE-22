@@ -1,244 +1,135 @@
 const products = [
 
 {
-  id: 1,
-  name: "Women's Floral Kurti",
-  category: "Women",
-  price: 220,
-  oldPrice: 1999,
-  discount: "70% OFF",
-  rating: 4.3,
-  delivery: "Free Delivery",
-  image: "https://rukminim2.flixcart.com/image/612/612/xif0q/shopsy-kurta/1/7/i/-resized-original-imahhx3ctnqfafhn.jpeg?q=70",
-  link: "https://fktr.in/hjfa880"
-},
-{
-  id: 2,
-  name: "Women's Floral Kurti",
-  category: "Women",
-  price: 388,
-  oldPrice: 999,
-  discount: "70% OFF",
-  rating: 4.3,
-  delivery: "Free Delivery",
-  image: "https://rukminim1.flixcart.com/image/3072/3072/xif0q/kurta/o/n/i/l-vc-red-sambshiv-original-imahpcujf33yapr2.jpeg?q=90",
-  link: "https://fktr.in/z7tk6Q3"
+    id:1,
+    name:"Women's Floral Kurti",
+    category:"Women",
+    price:299,
+    oldPrice:999,
+    rating:4.4,
+    discount:"70% OFF",
+    delivery:"Free Delivery",
+    image:"https://picsum.photos/300/350?random=1",
+    link:"#"
 },
 
 {
-  id: 3,
-  name: "Kurtis & Kurta Sets",
-  category: "Women",
-  price: 299
-  oldPrice: 999,
-  discount: "70% OFF",
-  rating: 4.3,
-  delivery: "Free Delivery",
-  image: "https://rukminim2.flixcart.com/image/612/612/xif0q/ethnic-set/z/r/v/xxl-tie-dye-001-fabunna-cotton-resized-original-imahgbgawqeadk8q.jpeg?q=70",
-  link: "https://fktr.in/46fMzrq"
-},
-{
-  id: 4,
-  name: "Women's Floral Kurti",
-  category: "Women",
-  price: 299,
-  oldPrice: 999,
-  discount: "70% OFF",
-  rating: 4.3,
-  delivery: "Free Delivery",
-  image: "#",
-  link: "#"
-},
-{
-id:5,
-name:"Beauty Face Cream",
-category:"Beauty",
-price:199,
-oldPrice:499,
-discount:"60% OFF",
-rating:4.5,
-delivery:"Free Delivery",
-image:"https://picsum.photos/300/350?random=5"
+    id:2,
+    name:"Cotton Saree",
+    category:"Women",
+    price:499,
+    oldPrice:1499,
+    rating:4.5,
+    discount:"67% OFF",
+    delivery:"Free Delivery",
+    image:"https://picsum.photos/300/350?random=2",
+    link:"#"
 },
 
 {
-id:6,
-name:"Face Wash",
-category:"Beauty",
-price:149,
-oldPrice:399,
-discount:"63% OFF",
-rating:4.3,
-delivery:"Free Delivery",
-image:"https://picsum.photos/300/350?random=6"
+    id:3,
+    name:"Men's Casual Shirt",
+    category:"Men",
+    price:399,
+    oldPrice:999,
+    rating:4.3,
+    discount:"60% OFF",
+    delivery:"Free Delivery",
+    image:"https://picsum.photos/300/350?random=3",
+    link:"#"
 },
 
 {
-id:7,
-name:"Lipstick Combo",
-category:"Beauty",
-price:249,
-oldPrice:699,
-discount:"64% OFF",
-rating:4.6,
-delivery:"Free Delivery",
-image:"https://picsum.photos/300/350?random=7"
+    id:4,
+    name:"Men's Jeans",
+    category:"Men",
+    price:699,
+    oldPrice:1799,
+    rating:4.4,
+    discount:"61% OFF",
+    delivery:"Free Delivery",
+    image:"https://picsum.photos/300/350?random=4",
+    link:"#"
 },
 
 {
-id:8,
-name:"Sports Shoes",
-category:"Footwear",
-price:499,
-oldPrice:999,
-discount:"50% OFF",
-rating:4.4,
-delivery:"Free Delivery",
-image:"https://picsum.photos/300/350?random=8"
+    id:5,
+    name:"Sports Shoes",
+    category:"Footwear",
+    price:799,
+    oldPrice:1999,
+    rating:4.6,
+    discount:"60% OFF",
+    delivery:"Free Delivery",
+    image:"https://picsum.photos/300/350?random=5",
+    link:"#"
 },
 
 {
-id:9,
-name:"Casual Shoes",
-category:"Footwear",
-price:599,
-oldPrice:1299,
-discount:"54% OFF",
-rating:4.5,
-delivery:"Free Delivery",
-image:"https://picsum.photos/300/350?random=9"
+    id:6,
+    name:"Smart Watch",
+    category:"Electronics",
+    price:999,
+    oldPrice:2999,
+    rating:4.5,
+    discount:"67% OFF",
+    delivery:"Free Delivery",
+    image:"https://picsum.photos/300/350?random=6",
+    link:"#"
 },
 
 {
-id:10,
-name:"Women's Sandal",
-category:"Footwear",
-price:349,
-oldPrice:799,
-discount:"56% OFF",
-rating:4.2,
-delivery:"Free Delivery",
-image:"https://picsum.photos/300/350?random=10"
+    id:7,
+    name:"Bluetooth Earbuds",
+    category:"Electronics",
+    price:899,
+    oldPrice:2499,
+    rating:4.4,
+    discount:"64% OFF",
+    delivery:"Free Delivery",
+    image:"https://picsum.photos/300/350?random=7",
+    link:"#"
 },
 
 {
-id:11,
-name:"Kitchen Storage Box",
-category:"Home & Kitchen",
-price:299,
-oldPrice:699,
-discount:"57% OFF",
-rating:4.0,
-delivery:"Free Delivery",
-image:"https://picsum.photos/300/350?random=11"
+    id:8,
+    name:"Face Wash",
+    category:"Beauty",
+    price:199,
+    oldPrice:399,
+    rating:4.3,
+    discount:"50% OFF",
+    delivery:"Free Delivery",
+    image:"https://picsum.photos/300/350?random=8",
+    link:"#"
 },
 
 {
-id:12,
-name:"Lunch Box",
-category:"Home & Kitchen",
-price:399,
-oldPrice:899,
-discount:"55% OFF",
-rating:4.5,
-delivery:"Free Delivery",
-image:"https://picsum.photos/300/350?random=12"
+    id:9,
+    name:"Hair Dryer",
+    category:"Beauty",
+    price:699,
+    oldPrice:1499,
+    rating:4.4,
+    discount:"53% OFF",
+    delivery:"Free Delivery",
+    image:"https://picsum.photos/300/350?random=9",
+    link:"#"
 },
 
 {
-id:13,
-name:"Wall Clock",
-category:"Home & Kitchen",
-price:499,
-oldPrice:999,
-discount:"50% OFF",
-rating:4.4,
-delivery:"Free Delivery",
-image:"https://picsum.photos/300/350?random=13"
-},
-
-{
-id:14,
-name:"Wrist Watch",
-category:"Watches",
-price:399,
-oldPrice:999,
-discount:"60% OFF",
-rating:4.6,
-delivery:"Free Delivery",
-image:"https://picsum.photos/300/350?random=14"
-},
-
-{
-id:15,
-name:"Smart Watch",
-category:"Watches",
-price:999,
-oldPrice:2499,
-discount:"60% OFF",
-rating:4.8,
-delivery:"Free Delivery",
-image:"https://picsum.photos/300/350?random=15"
-},
-
-{
-id:16,
-name:"Bluetooth Speaker",
-category:"Electronics",
-price:699,
-oldPrice:1499,
-discount:"53% OFF",
-rating:4.5,
-delivery:"Free Delivery",
-image:"https://picsum.photos/300/350?random=16"
-},
-
-{
-id:17,
-name:"Wireless Earbuds",
-category:"Electronics",
-price:899,
-oldPrice:1999,
-discount:"55% OFF",
-rating:4.7,
-delivery:"Free Delivery",
-image:"https://picsum.photos/300/350?random=17"
-},
-
-{
-id:18,
-name:"Power Bank",
-category:"Electronics",
-price:799,
-oldPrice:1599,
-discount:"50% OFF",
-rating:4.4,
-delivery:"Free Delivery",
-image:"https://picsum.photos/300/350?random=18"
-},
-
-{
-id:19,
-name:"Bike Mobile Holder",
-category:"Car & Bike",
-price:299,
-oldPrice:599,
-discount:"50% OFF",
-rating:4.3,
-delivery:"Free Delivery",
-image:"https://picsum.photos/300/350?random=19"
-},
-
-{
-id:20,
-name:"Car Vacuum Cleaner",
-category:"Car & Bike",
-price:899,
-oldPrice:1999,
-discount:"55% OFF",
-rating:4.6,
-delivery:"Free Delivery",
-image:"https://picsum.photos/300/350?random=20"
+    id:10,
+    name:"Kitchen Mixer",
+    category:"Home",
+    price:1499,
+    oldPrice:2999,
+    rating:4.5,
+    discount:"50% OFF",
+    delivery:"Free Delivery",
+    image:"https://picsum.photos/300/350?random=10",
+    link:"#"
 }
+
+// पुढचे Products इथे येतील...
 
 ];
