@@ -172,20 +172,19 @@ const modal = document.getElementById("productModal");
 
 const close = document.querySelector(".close");
 
-function openProduct(product) {
+function openProduct(id){
+
+    const product = products.find(p => p.id == id);
+
+    if(!product) return;
 
     modal.style.display = "block";
 
     document.getElementById("modalImage").src = product.image;
-
     document.getElementById("modalName").innerText = product.name;
-
     document.getElementById("modalPrice").innerText = "₹" + product.price;
-
     document.getElementById("modalRating").innerText = "⭐ " + product.rating;
-
     document.getElementById("modalDelivery").innerText = product.delivery;
-
     document.getElementById("buyNowLink").href = product.link;
 
 }
