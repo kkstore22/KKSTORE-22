@@ -62,7 +62,7 @@ id:5,
 name:"Girls Lehenga Choli Ethnic Wear Self Design Lehenga",
 category:"Women's Fashion",
 subcategory:"Lehengas",
-price:199 - 2999
+price:199 - 2999,
 oldPrice:1999,
 discount:"55% OFF",
 rating:4.4,
@@ -76,7 +76,7 @@ id:6,
 name:"Womans Gowns",
 category:"Women's Fashion",
 subcategory:"Gowns",
-price:199-999
+price:199-999,
 oldPrice:1199,
 discount:"50% OFF",
 rating:4.2,
@@ -100,7 +100,7 @@ link:"https://fktr.in/GB04VXN"
 },
 
 {
-id:7,
+id:8,
 name:"Kitchen Mixer",
 category:"Home",
 subcategory:"Kitchen Mixer",
@@ -114,7 +114,7 @@ link:"https://www.flipkart.com/search?q=Kitchen%20Mixer&otracker=search&otracker
 },
 
 {
-id:8,
+id:9,
 name:"Basmati Rice",
 category:"Grocery",
 subcategory:"Rice",
@@ -128,7 +128,7 @@ link:"https://fktr.in/wBr19x3"
 },
 
 {
-id:9,
+id:10,
 name:"Smart Watch",
 category:"Watches",
 subcategory:"Smart Watch",
