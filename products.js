@@ -347,6 +347,18 @@ link:"https://fktr.in/fVZIo7i"
   delivery: "Free Delivery",
   image: "https://rukminim2.flixcart.com/image/612/612/xif0q/track-pant/e/p/z/xl-rex-track-pant-tigersnake-original-imahjtfgfy2fyhrp.jpeg?q=70",
   link: "https://fktr.in/Od2t3SF"
+},
+{
+  id: 29,
+  name: "Western Wear for Women",
+  category: "Women's Fashion",
+  price: 264,
+  oldPrice: 999,
+  discount: "86% OFF",
+  rating: 4.3,
+  delivery: "Free Delivery",
+  image: "https://images.meesho.com/images/products/481529598/teg2x_512.avif?width=360",
+  link: "https://bitli.in/4Mm6Un8"
 }
   
 ];
