@@ -3,15 +3,15 @@ const products = [
 {
   id: 1,
   name: "Women's Floral Kurti",
-  category: "Women",
+  category: "Women's Fashion",
   subcategory:"Kurtis",
-  price: 220,
-  oldPrice: 1999,
-  discount: "70% OFF",
+  price: 227,
+  oldPrice: 1599,
+  discount: "86% OFF",
   rating: 4.3,
   delivery: "Free Delivery",
-  image: "https://rukminim2.flixcart.com/image/612/612/xif0q/shopsy-kurta/1/7/i/-resized-original-imahhx3ctnqfafhn.jpeg?q=70",
-  link: "https://fktr.in/hjfa880"
+  image: "https://rukminim1.flixcart.com/image/2048/2048/xif0q/kurta/r/r/i/m-sarasa-220y-sa-rasa-resized-original-imah8dsthexhbp6z.jpeg?q=90",
+  link: "https://fktr.in/W8tfS6e"
 
 },
 
