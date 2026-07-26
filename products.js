@@ -2,9 +2,8 @@ const products = [
 
 {
   id: 1,
-  name: "Women's Floral Kurti",
+  name: "👗 Kurtis",
   category: "Women's Fashion",
-  subcategory:"Kurtis",
   price: 227,
   oldPrice: 1599,
   discount: "86% OFF",
@@ -16,9 +15,8 @@ const products = [
 },
 {
   id: 2,
-  name: "Blocked Printed Bollywood Georgette Saree",
+  name: "🥻 Sarees",
   category: "Women's Fashion",
-  subcategory:"Sarees",
   price: 264,
   oldPrice: 999,
   discount: "86% OFF",
@@ -31,114 +29,226 @@ const products = [
 
 {
 id:3,
-name:"Maroon Self Design Lace Top With Slip",
+name:"👚 Tops & T-Shirts",
 category:"Women's Fashion",
-subcategory:"Tops", 
 price:499,
 oldPrice:999,
 discount:"50% OFF",
 rating:4.4,
 delivery:"Free Delivery",
-image:"https://rukminim2.flixcart.com/image/612/612/xif0q/top/6/x/d/xl-ru-mrn-03-kappv-original-imah2254yhas4c6h.jpeg?q=70",
-link:"https://myntr.it/zwci6MC"
+image:"https://rukminim2.flixcart.com/image/612/612/xif0q/t-shirt/g/m/l/s-dl-womenstop146-tanushk-original-imahzgzzzhcxzvgf.jpeg?q=70",
+link:"https://fktr.in/PFpyf68"
 },
 
 {
 id:4,
-name:"Women Fit and Flare Pink Midi/Calf Length Dresses",
+name:"👖 Jeans & Trousers",
 category:"Women's Fashion",
-subcategory:"Dresses",
 price:149,
 oldPrice:999,
 discount:"60% OFF",
 rating:4.6,
 delivery:"Free Delivery",
-image:"https://rukminim2.flixcart.com/image/612/612/xif0q/dress/e/0/r/xl-maternity-gujari-resized-original-imah4m3yd8bnzpdw.jpeg?q=70",
-link:"https://fktr.in/MQzdvBZ"
+image:"https://rukminim2.flixcart.com/image/612/612/kzd147k0/trouser/s/t/m/30-denim-moti-light-blue-button-stylokat-original-imagbdxfxegfgxnz.jpeg?q=70",
+link:"https://fktr.in/fuFgWju"
 },
 
 {
 id:5,
-name:"Girls Lehenga Choli Ethnic Wear Self Design Lehenga",
+name:"👗 Western Dresses",
 category:"Women's Fashion",
-subcategory:"Lehengas",
 price:199 - 2999,
 oldPrice:1999,
 discount:"55% OFF",
 rating:4.4,
 delivery:"Free Delivery",
-image:"https://rukminim2.flixcart.com/image/612/612/xif0q/shopsy-lehenga-choli/l/o/p/free-full-sleeve-semi-stitched-44-lehenga-choli-and-dupatta-set-original-imahddnft5g47jst.jpeg?q=70",
-link:"https://fktr.in/XsXq9dG"
+image:"https://rukminim2.flixcart.com/image/612/612/xif0q/dress/z/8/c/xl-red-dress-aarti-fashion-original-imahgzhggxagyx5z.jpeg?q=70",
+link:"https://fktr.in/rsr90mg"
 },
 
 {
 id:6,
-name:"Womans Gowns",
+name:"👘 Lehenga & Gowns",
 category:"Women's Fashion",
-subcategory:"Gowns",
-price:199-999,
+price:199,
 oldPrice:1199,
 discount:"50% OFF",
 rating:4.2,
 delivery:"Free Delivery",
 image:"https://rukminim2.flixcart.com/image/612/612/xif0q/gown/c/2/h/no-m-full-sleeve-stitched-dvd-pink-gown-2-reva-enterprise-no-original-imah2w2mfwzuzrhg.jpeg?q=70",
-link:"https://fktr.in/WvwKVGm"
+link:"https://fktr.in/lUWyqgN"
 },
 
 {
 id:7,
-name:"Sports Shoes",
-category:"Footwear",
-subcategory:"Sports Shoes",
-price:799,
+name:"🩳 Co-ord Sets",
+category:"Women's Fashion",
+price:199,
 oldPrice:1599,
 discount:"50% OFF",
 rating:4.3,
 delivery:"Free Delivery",
-image:"https://rukminim2.flixcart.com/image/612/612/xif0q/shoe/d/a/p/-watermarked-original-imahfhpnzwfv9fxq.jpeg?q=70",
-link:"https://fktr.in/GB04VXN"
+image:"https://rukminim2.flixcart.com/image/612/612/xif0q/apparel-set/i/g/j/s-oly-coardset-70-co-ords-olywear-original-imahh73vm6jqvrnd.jpeg?q=70",
+link:"https://fktr.in/7wCUzna"
 },
 
 {
 id:8,
-name:"Kitchen Mixer",
-category:"Home",
-subcategory:"Kitchen Mixer",
-price:1499,
+name:"🧥 Ethnic Sets",
+category:"Women's Fashion",
+price:199,
 oldPrice:2499,
 discount:"40% OFF",
 rating:4.5,
 delivery:"Free Delivery",
-image:"https://rukminim2.flixcart.com/image/612/612/xif0q/mixer-grinder-juicer/s/k/x/powerful-740-watt-havok-original-imah8bfmb8gwyjy5.jpeg?q=70",
-link:"https://www.flipkart.com/search?q=Kitchen%20Mixer&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off"
+image:"https://rukminim2.flixcart.com/image/612/612/xif0q/ethnic-set/j/q/d/xxl-ac-1102-yusra-original-imagqzyhufzhtqkn.jpeg?q=70",
+link:"https://fktr.in/7xIHENa"
 },
 
 {
 id:9,
-name:"Basmati Rice",
-category:"Grocery",
-subcategory:"Rice",
+name:"👜 Handbags",
+category:"Women's Fashion",
 price:599,
 oldPrice:799,
 discount:"25% OFF",
 rating:4.4,
 delivery:"Free Delivery",
-image:"https://rukminim2.flixcart.com/image/612/612/xif0q/rice/y/b/p/10-daily-dubar-finest-quality-white-na-pouch-basmati-rice-original-imahk5zvedqkvrkn.jpeg?q=70",
-link:"https://fktr.in/wBr19x3"
+image:"https://rukminim2.flixcart.com/image/612/612/xif0q/shopsy-hand-messenger-bag/q/u/0/woman-purse-purse-woman-bag-purse-women-style-hand-held-bag-original-imahjky2jjgfa7xa.jpeg?q=70",
+link:"https://fktr.in/t3H4vCs"
 },
 
 {
 id:10,
-name:"Smart Watch",
-category:"Watches",
-subcategory:"Smart Watch",
-price:999,
-oldPrice:2499,
+name:"👠 Footwear (Sandals, Heels, Sneakers)",
+category:"Women's Fashion",
+price:149,
+oldPrice:499,
 discount:"60% OFF",
 rating:4.5,
 delivery:"Free Delivery",
-image:"https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/n/o/z/-enriched-transparent-original-imah76jstup5zdww.png?q=70",
-link:"https://fktr.in/0itOSjN"
+image:"https://rukminim2.flixcart.com/image/612/612/xif0q/sandal/s/h/l/-original-imahmgpdnuqnxmxv.jpeg?q=70",
+link:"https://fktr.in/LhGvrTx"
+}
+
+id:11,
+name:"💍 Jewellery",
+category:"Women's Fashion",
+price:149,
+oldPrice:499,
+discount:"60% OFF",
+rating:4.5,
+delivery:"Free Delivery",
+image:"https://rukminim2.flixcart.com/image/612/612/xif0q/jewellery-set/u/t/p/-original-imahft6rpx9zayhh.jpeg?q=70",
+link:"https://fktr.in/kgf97qu"
+}
+
+id:12,
+name:"⌚ Watches",
+category:"Women's Fashion",
+price:149,
+oldPrice:499,
+discount:"60% OFF",
+rating:4.5,
+delivery:"Free Delivery",
+image:"https://rukminim2.flixcart.com/image/612/612/xif0q/watch/l/q/p/1-girl-watch-with-free-bracelet-timorix-women-original-imahcqhybrjbdh43.jpeg?q=70",
+link:"https://fktr.in/ddenmra"
+}
+
+id:13,
+name:"🕶️ Sunglasses",
+category:"Women's Fashion",
+price:149,
+oldPrice:499,
+discount:"60% OFF",
+rating:4.5,
+delivery:"Free Delivery",
+image:"https://rukminim2.flixcart.com/image/612/612/xif0q/sunglass/e/u/q/m-oval-gbrown-hexagon-gblack-eyevy-original-imahgughwtkhpjgs.jpeg?q=70",
+link:"https://fktr.in/Y5dvRh7"
+}
+
+id:14,
+name:"🧣 Dupattas & Stoles",
+category:"Women's Fashion",
+price:149,
+oldPrice:499,
+discount:"60% OFF",
+rating:4.5,
+delivery:"Free Delivery",
+image:"https://rukminim2.flixcart.com/image/612/612/xif0q/scarf/r/s/l/free-size-rn00861-riddle-needle-original-imahk67uuztz9esy.jpeg?q=70",
+link:"https://fktr.in/k0CyJ7g"
+}
+
+id:15,
+name:"💄 Beauty & Makeup",
+category:"Beauty",
+price:149,
+oldPrice:499,
+discount:"60% OFF",
+rating:4.5,
+delivery:"Free Delivery",
+image:"https://rukminim2.flixcart.com/image/612/612/xif0q/makeup-kit/l/a/5/all-in-one-makeup-set5-toroka-original-imahzc6szgz9h9hg.jpeg?q=70",
+link:"https://fktr.in/yvd0c3w"
+}
+
+id:16,
+name:"🧴 Skincare",
+category:"Beauty",
+price:149,
+oldPrice:499,
+discount:"60% OFF",
+rating:4.5,
+delivery:"Free Delivery",
+image:"https://rukminim2.flixcart.com/image/612/612/xif0q/moisturizer-cream/2/t/b/-original-imahzyn3nzegvaqp.jpeg?q=70",
+link:"https://fktr.in/vx5UrB0"
+}
+
+id:17,
+name:"💇 Hair Accessories",
+category:"Beauty",
+price:149,
+oldPrice:499,
+discount:"60% OFF",
+rating:4.5,
+delivery:"Free Delivery",
+image:"https://rukminim2.flixcart.com/image/612/612/xif0q/hair-accessory/r/8/u/soft-fabric-hair-scrunchies-for-women-girls-hair-bands-combo-original-imahngwzangvqupx.jpeg?q=70",
+link:"https://fktr.in/FoS1so6"
+}
+
+id:18,
+name:"🛌 Nightwear",
+category:"Women's Fashion",
+price:149,
+oldPrice:499,
+discount:"60% OFF",
+rating:4.5,
+delivery:"Free Delivery",
+image:"https://rukminim2.flixcart.com/image/612/612/kzegk280/night-suit/v/u/k/xl-ske4001-black-pati-night-suit-trinabh-original-imagbfg7rwbkvyvm.jpeg?q=70",
+link:"https://fktr.in/r40uQ7Z"
+}
+
+id:19,
+name:"👙 Lingerie",
+category:"Women's Fashion",
+price:149,
+oldPrice:499,
+discount:"60% OFF",
+rating:4.5,
+delivery:"Free Delivery",
+image:"https://rukminim2.flixcart.com/image/612/612/xif0q/lingerie-set/t/1/i/40b-padded-bra-panty-set-for-women-girls-bikini-original-imahad2pxzjbdb5m.jpeg?q=70",
+link:"https://fktr.in/lfY8Pcr"
+}
+
+id:20,
+name:"🧥 Winter Wear",
+category:"Women's Fashion",
+price:149,
+oldPrice:499,
+discount:"60% OFF",
+rating:4.5,
+delivery:"Free Delivery",
+image:"https://rukminim2.flixcart.com/fk-p-flap/100/100/image/b9eeb41d4723c20d.jpg?q=50",
+link:"https://fktr.in/fVZIo7i"
 }
 
 ];
