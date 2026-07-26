@@ -237,7 +237,7 @@ oldPrice:499,
 discount:"60% OFF",
 rating:4.5,
 delivery:"Free Delivery",
-image:"https://rukminim2.flixcart.com/fk-p-flap/100/100/image/b9eeb41d4723c20d.jpg?q=50",
+image:"https://rukminim2.flixcart.com/image/612/612/xif0q/jacket/z/1/g/s-1-no-women-winter-jacket52-slc-original-imahhmyph8x75tku.jpeg?q=70",
 link:"https://fktr.in/fVZIo7i"
 },
 {
@@ -261,7 +261,7 @@ link:"https://fktr.in/fVZIo7i"
   discount: "86% OFF",
   rating: 4.3,
   delivery: "Free Delivery",
-  image: "https://rukminim2.flixcart.com/fk-p-flap/100/100/image/7d9eb6cbc9b73e4c.jpg?q=50",
+  image: "https://rukminim2.flixcart.com/image/612/612/xif0q/t-shirt/0/h/8/s-tsrt-moq2-kajaru-resized-original-imah8yzgyqvkyyfb.jpeg?q=70",
   link: "https://fktr.in/12bcBCI"
 },
 {
@@ -273,7 +273,7 @@ link:"https://fktr.in/fVZIo7i"
   discount: "86% OFF",
   rating: 4.3,
   delivery: "Free Delivery",
-  image: "https://rukminim2.flixcart.com/fk-p-flap/100/100/image/bc2719c0bee2c802.jpg?q=50",
+  image: "https://rukminim2.flixcart.com/image/612/612/xif0q/shirt/f/l/v/l-vb-10-full-sh-fsn-original-imahpatf3kn4bcyg.jpeg?q=70",
   link: "https://fktr.in/zhdAhDV"
 },
 {
@@ -309,7 +309,7 @@ link:"https://fktr.in/fVZIo7i"
   discount: "86% OFF",
   rating: 4.3,
   delivery: "Free Delivery",
-  image: "https://rukminim2.flixcart.com/fk-p-flap/100/100/image/2993af57f8bc6e9a.jpg?q=50",
+  image: "https://rukminim2.flixcart.com/image/612/612/xif0q/jean/x/e/v/34-ajjeans-m-ajj-original-imahzy6bbsukwrqc.jpeg?q=70",
   link: "https://fktr.in/Jj4vtco"
 },
 {
@@ -321,7 +321,7 @@ link:"https://fktr.in/fVZIo7i"
   discount: "86% OFF",
   rating: 4.3,
   delivery: "Free Delivery",
-  image: "https://rukminim2.flixcart.com/fk-p-flap/100/100/image/db7ffe057001a79a.jpg?q=50",
+  image: "https://rukminim2.flixcart.com/image/612/612/xif0q/trouser/u/i/w/34-a04-checktwill-trousers-pk2-gibbonte-resized-original-imah88pbhxeseynv.jpeg?q=70",
   link: "https://fktr.in/cnV2HnB"
 },
 {
@@ -333,7 +333,7 @@ link:"https://fktr.in/fVZIo7i"
   discount: "86% OFF",
   rating: 4.3,
   delivery: "Free Delivery",
-  image: "https://rukminim2.flixcart.com/fk-p-flap/100/100/image/2d642ce769cf2e3d.jpg?q=50",
+  image: "https://rukminim2.flixcart.com/image/612/612/xif0q/cargo/9/u/m/26-p-jogger-ten-pocket-dark-green-plus91-original-imahdnzyxpcbmgzf.jpeg?q=70",
   link: "https://fktr.in/8dZO2hx"
 },
 {
