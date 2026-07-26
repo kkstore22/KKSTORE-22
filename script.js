@@ -112,25 +112,6 @@ document.querySelectorAll(".cat").forEach(btn => {
 
 });
 // ===============================
-// Sub Category Filter
-// ===============================
-
-document.querySelectorAll(".sub").forEach(btn => {
-
-    btn.addEventListener("click", function(){
-
-        const subCategory = this.dataset.sub;
-
-        const filtered = products.filter(item =>
-            item.subcategory === subCategory
-        );
-
-        displayProducts(filtered);
-
-    });
-
-});
-// ===============================
 // Cart
 // ===============================
 function addCart() {
