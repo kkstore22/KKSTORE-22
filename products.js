@@ -11,7 +11,7 @@ const products = [
   rating: 4.3,
   delivery: "Free Delivery",
   image: "https://rukminim1.flixcart.com/image/2048/2048/xif0q/kurta/r/r/i/m-sarasa-220y-sa-rasa-resized-original-imah8dsthexhbp6z.jpeg?q=90",
-  link: "https://fktr.in/W8tfS6e"
+  link: "https://fktr.in/U5B3nB6"
 
 },
 {
@@ -25,12 +25,12 @@ const products = [
   rating: 4.3,
   delivery: "Free Delivery",
   image: "https://rukminim2.flixcart.com/image/612/612/l2nmnww0/sari/s/a/3/free-lv-214-leelavati-unstitched-original-imagdy7ahvdbpnj9.jpeg?q=70",
-  link: "https://fktr.in/wp06o7o"
+  link: "https://fktr.in/lA6IrfI"
 
 },
 
 {
-id:2,
+id:3,
 name:"Maroon Self Design Lace Top With Slip",
 category:"Women's Fashion",
 subcategory:"Tops", 
@@ -44,49 +44,49 @@ link:"https://myntr.it/zwci6MC"
 },
 
 {
-id:3,
-name:"Mobile undar 25000",
-category:"Mobile",
-subcategory:"Mobile",
-price:14999,
-oldPrice:18999,
-discount:"20% OFF",
+id:4,
+name:"Women Fit and Flare Pink Midi/Calf Length Dresses",
+category:"Women's Fashion",
+subcategory:"Dresses",
+price:149,
+oldPrice:999,
+discount:"60% OFF",
 rating:4.6,
 delivery:"Free Delivery",
-image:"https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/y/i/n/-original-imahpgktvxzebfkq.jpeg?q=70",
-link:"https://fktr.in/rsegQ1i"
-},
-
-{
-id:4,
-name:"Bluetooth Earbuds",
-category:"Electronics",
-subcategory:"Bluetooth Earbuds",
-price:899,
-oldPrice:1999,
-discount:"55% OFF",
-rating:4.4,
-delivery:"Free Delivery",
-image:"https://www.flipkart.com/quicky-tws-bluetooth-earbuds-clear-calls-portable-charging-case/p/itm2c1204807a1da?pid=ACCHPBRDK8TYBAGF&lid=LSTACCHPBRDK8TYBAGFXHDI2J&marketplace=FLIPKART&q=Bluetooth+Earbuds&store=0pm%2Ffcn%2F821&srno=s_1_14&otracker=search&otracker1=search&fm=Search&iid=bca15cb7-87e4-4874-89be-1094fafa0d16.ACCHPBRDK8TYBAGF.SEARCH&ppt=sp&ppn=sp&qH=340c82ff6c8b739b&ov_redirect=true&ov_redirect=true",
-link:"https://fktr.in/8TUklpI"
+image:"https://rukminim2.flixcart.com/image/612/612/xif0q/dress/e/0/r/xl-maternity-gujari-resized-original-imah4m3yd8bnzpdw.jpeg?q=70",
+link:"https://fktr.in/MQzdvBZ"
 },
 
 {
 id:5,
-name:"Face Wash",
-category:"Beauty",
-subcategory:"Face Wash",
-price:199,
-oldPrice:399,
-discount:"50% OFF",
-rating:4.2,
+name:"Girls Lehenga Choli Ethnic Wear Self Design Lehenga",
+category:"Women's Fashion",
+subcategory:"Lehengas",
+price:199 - 2999
+oldPrice:1999,
+discount:"55% OFF",
+rating:4.4,
 delivery:"Free Delivery",
-image:"https://rukminim2.flixcart.com/image/612/612/xif0q/shopsy-face-wash/a/s/a/-original-imahzd78b7gdsmrd.jpeg?q=70",
-link:"https://fktr.in/Yk5ylyu"
+image:"https://rukminim2.flixcart.com/image/612/612/xif0q/shopsy-lehenga-choli/l/o/p/free-full-sleeve-semi-stitched-44-lehenga-choli-and-dupatta-set-original-imahddnft5g47jst.jpeg?q=70",
+link:"https://fktr.in/XsXq9dG"
 },
 
 {
 id:6,
+name:"Womans Gowns",
+category:"Women's Fashion",
+subcategory:"Gowns",
+price:199-999
+oldPrice:1199,
+discount:"50% OFF",
+rating:4.2,
+delivery:"Free Delivery",
+image:"https://rukminim2.flixcart.com/image/612/612/xif0q/gown/c/2/h/no-m-full-sleeve-stitched-dvd-pink-gown-2-reva-enterprise-no-original-imah2w2mfwzuzrhg.jpeg?q=70",
+link:"https://fktr.in/WvwKVGm"
+},
+
+{
+id:7,
 name:"Sports Shoes",
 category:"Footwear",
 subcategory:"Sports Shoes",
