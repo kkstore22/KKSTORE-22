@@ -184,7 +184,7 @@ function openProduct(id){
     document.getElementById("modalPrice").innerText = "₹" + product.price;
     document.getElementById("modalRating").innerText = "⭐ " + product.rating;
     document.getElementById("modalDelivery").innerText = product.delivery;
-    document.getElementById("OpenLink").href = product.link;
+    document.getElementById("BuyNowLink").href = product.link;
 
 }
 
