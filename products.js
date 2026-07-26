@@ -371,5 +371,67 @@ link:"https://fktr.in/fVZIo7i"
   delivery: "Free Delivery",
   image: "https://images.meesho.com/images/products/295800910/awccr_512.avif?width=360",
   link: "https://bitli.in/aJmix0h"
+},
+{
+  id: 31,
+  name: "Home Design Items",
+  category: "Home & Kitchen",
+  price: 264,
+  oldPrice: 999,
+  discount: "86% OFF",
+  rating: 4.3,
+  delivery: "Free Delivery",
+  image: "https://images.meesho.com/images/products/442812664/pbvs8_512.avif?width=360",
+  link: "https://bitli.in/2bzGZww"
+},
+{
+  id: 32,
+  name: "Buy Affordable Kitchen Items",
+  category: "Home & Kitchen",
+  price: 264,
+  oldPrice: 999,
+  discount: "86% OFF",
+  rating: 4.3,
+  delivery: "Free Delivery",
+  image: "https://images.meesho.com/images/products/382298159/79bmi_512.avif?width=360",
+  link: "https://bitli.in/GGxxkHn"
+},
+
+{
+  id: 33,
+  name: "Home Textiles",
+  category: "Home & Kitchen",
+  price: 264,
+  oldPrice: 999,
+  discount: "86% OFF",
+  rating: 4.3,
+  delivery: "Free Delivery",
+  image: "https://images.meesho.com/images/products/552335743/vnwwo_512.avif?width=360",
+  link: "https://bitli.in/HgJ3l3C"
+},
+{
+  id: 34,
+  name: "Home Improvement",
+  category: "Home & Kitchen",
+  price: 264,
+  oldPrice: 999,
+  discount: "86% OFF",
+  rating: 4.3,
+  delivery: "Free Delivery",
+  image: "https://images.meesho.com/images/products/350548801/19wf8_512.avif?width=360",
+  link: "https://bitli.in/sIcm9mH"
+},
+
+{
+  id: 35,
+  name: "Personal Care",
+  category: "Beauty",
+  price: 264,
+  oldPrice: 999,
+  discount: "86% OFF",
+  rating: 4.3,
+  delivery: "Free Delivery",
+  image: "https://images.meesho.com/images/products/402212611/r2xtg_512.avif?width=360",
+  link: "https://bitli.in/pgLgg2e"
 }
 ];
