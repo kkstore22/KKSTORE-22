@@ -239,6 +239,114 @@ rating:4.5,
 delivery:"Free Delivery",
 image:"https://rukminim2.flixcart.com/fk-p-flap/100/100/image/b9eeb41d4723c20d.jpg?q=50",
 link:"https://fktr.in/fVZIo7i"
+},
+{
+  id: 21,
+  name: "womans fashion all",
+  category: "All",
+  price: 227,
+  oldPrice: 1599,
+  discount: "86% OFF",
+  rating: 4.3,
+  delivery: "Free Delivery",
+  image: "https://rukminim2.flixcart.com/image/612/612/xif0q/kurta/p/4/p/3xl-el-01white-goldbutti-aarti-fashion-resized-original-imahd4mnha5ysggu.jpeg?q=70",
+  link: "https://fktr.in/C2OrAbx"
+},
+{
+  id: 22,
+  name: "T-Shirts",
+  category: "Men's Fashion",
+  price: 227,
+  oldPrice: 1599,
+  discount: "86% OFF",
+  rating: 4.3,
+  delivery: "Free Delivery",
+  image: "https://rukminim2.flixcart.com/fk-p-flap/100/100/image/7d9eb6cbc9b73e4c.jpg?q=50",
+  link: "https://fktr.in/12bcBCI"
+},
+{
+  id: 23,
+  name: "Casual Shirts",
+  category: "Men's Fashion",
+  price: 227,
+  oldPrice: 1599,
+  discount: "86% OFF",
+  rating: 4.3,
+  delivery: "Free Delivery",
+  image: "https://rukminim2.flixcart.com/fk-p-flap/100/100/image/bc2719c0bee2c802.jpg?q=50",
+  link: "https://fktr.in/zhdAhDV"
+},
+{
+  id: 24,
+  name: "Formal Shirts",
+  category: "Men's Fashion",
+  price: 227,
+  oldPrice: 1599,
+  discount: "86% OFF",
+  rating: 4.3,
+  delivery: "Free Delivery",
+  image: "https://rukminim2.flixcart.com/image/612/612/xif0q/shirt/k/g/k/l-sh4sg-pactimo-original-imahgnjhzezuy9fj.jpeg?q=70",
+  link: "https://fktr.in/X4T4QDU"
+},
+{
+  id: 25,
+  name: "Polo T-Shirts",
+  category: "Men's Fashion",
+  price: 227,
+  oldPrice: 1599,
+  discount: "86% OFF",
+  rating: 4.3,
+  delivery: "Free Delivery",
+  image: "https://rukminim2.flixcart.com/image/612/612/xif0q/t-shirt/i/3/b/-resized-original-imahfxvfhubwp9uv.jpeg?q=70",
+  link: "https://fktr.in/Y1cCq9M"
+},
+{
+  id: 26,
+  name: "Jeans",
+  category: "Men's Fashion",
+  price: 227,
+  oldPrice: 1599,
+  discount: "86% OFF",
+  rating: 4.3,
+  delivery: "Free Delivery",
+  image: "https://rukminim2.flixcart.com/fk-p-flap/100/100/image/2993af57f8bc6e9a.jpg?q=50",
+  link: "https://fktr.in/Jj4vtco"
+},
+{
+  id: 26,
+  name: "Trousers",
+  category: "Men's Fashion",
+  price: 227,
+  oldPrice: 1599,
+  discount: "86% OFF",
+  rating: 4.3,
+  delivery: "Free Delivery",
+  image: "https://rukminim2.flixcart.com/fk-p-flap/100/100/image/db7ffe057001a79a.jpg?q=50",
+  link: "https://fktr.in/cnV2HnB"
+},
+{
+  id: 27,
+  name: "Cargo Pants",
+  category: "Men's Fashion",
+  price: 227,
+  oldPrice: 1599,
+  discount: "86% OFF",
+  rating: 4.3,
+  delivery: "Free Delivery",
+  image: "https://rukminim2.flixcart.com/fk-p-flap/100/100/image/2d642ce769cf2e3d.jpg?q=50",
+  link: "https://fktr.in/8dZO2hx"
+},
+{
+  id: 28,
+  name: "Track Pants",
+  category: "Men's Fashion",
+  price: 227,
+  oldPrice: 1599,
+  discount: "86% OFF",
+  rating: 4.3,
+  delivery: "Free Delivery",
+  image: "https://rukminim2.flixcart.com/image/612/612/xif0q/track-pant/e/p/z/xl-rex-track-pant-tigersnake-original-imahjtfgfy2fyhrp.jpeg?q=70",
+  link: "https://fktr.in/Od2t3SF"
 }
-
+  
 ];
