@@ -46,13 +46,9 @@ function displayProducts(data) {
                 <button onclick="addCart()" class="cart-btn">
                     🛒 Cart
                 </button>
-
-                <a id="buyNowLink" href="#" target="_blank">
-            <button class="buy-btn">Open</button>
-        </a>
-
-            </div>
-
+                <a href="${item.link}" target="_blank">
+                <button class="buy-btn">Open</button>
+                </a>
         </div>
         `;
 
