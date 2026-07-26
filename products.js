@@ -11,7 +11,6 @@ const products = [
   delivery: "Free Delivery",
   image: "https://rukminim1.flixcart.com/image/2048/2048/xif0q/kurta/r/r/i/m-sarasa-220y-sa-rasa-resized-original-imah8dsthexhbp6z.jpeg?q=90",
   link: "https://fktr.in/U5B3nB6"
-
 },
 {
   id: 2,
@@ -24,9 +23,7 @@ const products = [
   delivery: "Free Delivery",
   image: "https://rukminim2.flixcart.com/image/612/612/l2nmnww0/sari/s/a/3/free-lv-214-leelavati-unstitched-original-imagdy7ahvdbpnj9.jpeg?q=70",
   link: "https://fktr.in/lA6IrfI"
-
 },
-
 {
 id:3,
 name:"👚 Tops & T-Shirts",
@@ -39,7 +36,6 @@ delivery:"Free Delivery",
 image:"https://rukminim2.flixcart.com/image/612/612/xif0q/t-shirt/g/m/l/s-dl-womenstop146-tanushk-original-imahzgzzzhcxzvgf.jpeg?q=70",
 link:"https://fktr.in/PFpyf68"
 },
-
 {
 id:4,
 name:"👖 Jeans & Trousers",
@@ -52,7 +48,6 @@ delivery:"Free Delivery",
 image:"https://rukminim2.flixcart.com/image/612/612/kzd147k0/trouser/s/t/m/30-denim-moti-light-blue-button-stylokat-original-imagbdxfxegfgxnz.jpeg?q=70",
 link:"https://fktr.in/fuFgWju"
 },
-
 {
 id:5,
 name:"👗 Western Dresses",
@@ -65,7 +60,6 @@ delivery:"Free Delivery",
 image:"https://rukminim2.flixcart.com/image/612/612/xif0q/dress/z/8/c/xl-red-dress-aarti-fashion-original-imahgzhggxagyx5z.jpeg?q=70",
 link:"https://fktr.in/rsr90mg"
 },
-
 {
 id:6,
 name:"👘 Lehenga & Gowns",
@@ -78,7 +72,6 @@ delivery:"Free Delivery",
 image:"https://rukminim2.flixcart.com/image/612/612/xif0q/gown/c/2/h/no-m-full-sleeve-stitched-dvd-pink-gown-2-reva-enterprise-no-original-imah2w2mfwzuzrhg.jpeg?q=70",
 link:"https://fktr.in/lUWyqgN"
 },
-
 {
 id:7,
 name:"🩳 Co-ord Sets",
@@ -91,7 +84,6 @@ delivery:"Free Delivery",
 image:"https://rukminim2.flixcart.com/image/612/612/xif0q/apparel-set/i/g/j/s-oly-coardset-70-co-ords-olywear-original-imahh73vm6jqvrnd.jpeg?q=70",
 link:"https://fktr.in/7wCUzna"
 },
-
 {
 id:8,
 name:"🧥 Ethnic Sets",
@@ -104,7 +96,6 @@ delivery:"Free Delivery",
 image:"https://rukminim2.flixcart.com/image/612/612/xif0q/ethnic-set/j/q/d/xxl-ac-1102-yusra-original-imagqzyhufzhtqkn.jpeg?q=70",
 link:"https://fktr.in/7xIHENa"
 },
-
 {
 id:9,
 name:"👜 Handbags",
@@ -117,7 +108,6 @@ delivery:"Free Delivery",
 image:"https://rukminim2.flixcart.com/image/612/612/xif0q/shopsy-hand-messenger-bag/q/u/0/woman-purse-purse-woman-bag-purse-women-style-hand-held-bag-original-imahjky2jjgfa7xa.jpeg?q=70",
 link:"https://fktr.in/t3H4vCs"
 },
-
 {
 id:10,
 name:"👠 Footwear (Sandals, Heels, Sneakers)",
@@ -129,8 +119,8 @@ rating:4.5,
 delivery:"Free Delivery",
 image:"https://rukminim2.flixcart.com/image/612/612/xif0q/sandal/s/h/l/-original-imahmgpdnuqnxmxv.jpeg?q=70",
 link:"https://fktr.in/LhGvrTx"
-}
-
+},
+{
 id:11,
 name:"💍 Jewellery",
 category:"Women's Fashion",
@@ -141,8 +131,8 @@ rating:4.5,
 delivery:"Free Delivery",
 image:"https://rukminim2.flixcart.com/image/612/612/xif0q/jewellery-set/u/t/p/-original-imahft6rpx9zayhh.jpeg?q=70",
 link:"https://fktr.in/kgf97qu"
-}
-
+},
+{
 id:12,
 name:"⌚ Watches",
 category:"Women's Fashion",
@@ -153,8 +143,8 @@ rating:4.5,
 delivery:"Free Delivery",
 image:"https://rukminim2.flixcart.com/image/612/612/xif0q/watch/l/q/p/1-girl-watch-with-free-bracelet-timorix-women-original-imahcqhybrjbdh43.jpeg?q=70",
 link:"https://fktr.in/ddenmra"
-}
-
+},
+{
 id:13,
 name:"🕶️ Sunglasses",
 category:"Women's Fashion",
@@ -165,8 +155,8 @@ rating:4.5,
 delivery:"Free Delivery",
 image:"https://rukminim2.flixcart.com/image/612/612/xif0q/sunglass/e/u/q/m-oval-gbrown-hexagon-gblack-eyevy-original-imahgughwtkhpjgs.jpeg?q=70",
 link:"https://fktr.in/Y5dvRh7"
-}
-
+},
+{
 id:14,
 name:"🧣 Dupattas & Stoles",
 category:"Women's Fashion",
@@ -177,8 +167,8 @@ rating:4.5,
 delivery:"Free Delivery",
 image:"https://rukminim2.flixcart.com/image/612/612/xif0q/scarf/r/s/l/free-size-rn00861-riddle-needle-original-imahk67uuztz9esy.jpeg?q=70",
 link:"https://fktr.in/k0CyJ7g"
-}
-
+},
+{
 id:15,
 name:"💄 Beauty & Makeup",
 category:"Beauty",
@@ -189,8 +179,8 @@ rating:4.5,
 delivery:"Free Delivery",
 image:"https://rukminim2.flixcart.com/image/612/612/xif0q/makeup-kit/l/a/5/all-in-one-makeup-set5-toroka-original-imahzc6szgz9h9hg.jpeg?q=70",
 link:"https://fktr.in/yvd0c3w"
-}
-
+},
+{
 id:16,
 name:"🧴 Skincare",
 category:"Beauty",
@@ -201,8 +191,8 @@ rating:4.5,
 delivery:"Free Delivery",
 image:"https://rukminim2.flixcart.com/image/612/612/xif0q/moisturizer-cream/2/t/b/-original-imahzyn3nzegvaqp.jpeg?q=70",
 link:"https://fktr.in/vx5UrB0"
-}
-
+},
+{
 id:17,
 name:"💇 Hair Accessories",
 category:"Beauty",
@@ -213,8 +203,8 @@ rating:4.5,
 delivery:"Free Delivery",
 image:"https://rukminim2.flixcart.com/image/612/612/xif0q/hair-accessory/r/8/u/soft-fabric-hair-scrunchies-for-women-girls-hair-bands-combo-original-imahngwzangvqupx.jpeg?q=70",
 link:"https://fktr.in/FoS1so6"
-}
-
+},
+{
 id:18,
 name:"🛌 Nightwear",
 category:"Women's Fashion",
@@ -225,8 +215,8 @@ rating:4.5,
 delivery:"Free Delivery",
 image:"https://rukminim2.flixcart.com/image/612/612/kzegk280/night-suit/v/u/k/xl-ske4001-black-pati-night-suit-trinabh-original-imagbfg7rwbkvyvm.jpeg?q=70",
 link:"https://fktr.in/r40uQ7Z"
-}
-
+},
+{
 id:19,
 name:"👙 Lingerie",
 category:"Women's Fashion",
@@ -237,8 +227,8 @@ rating:4.5,
 delivery:"Free Delivery",
 image:"https://rukminim2.flixcart.com/image/612/612/xif0q/lingerie-set/t/1/i/40b-padded-bra-panty-set-for-women-girls-bikini-original-imahad2pxzjbdb5m.jpeg?q=70",
 link:"https://fktr.in/lfY8Pcr"
-}
-
+},
+{
 id:20,
 name:"🧥 Winter Wear",
 category:"Women's Fashion",
