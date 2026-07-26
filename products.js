@@ -14,19 +14,33 @@ const products = [
   link: "https://fktr.in/W8tfS6e"
 
 },
+{
+  id: 2,
+  name: "Blocked Printed Bollywood Georgette Saree",
+  category: "Women's Fashion",
+  subcategory:"Sarees",
+  price: 264,
+  oldPrice: 999,
+  discount: "86% OFF",
+  rating: 4.3,
+  delivery: "Free Delivery",
+  image: "https://rukminim2.flixcart.com/image/612/612/l2nmnww0/sari/s/a/3/free-lv-214-leelavati-unstitched-original-imagdy7ahvdbpnj9.jpeg?q=70",
+  link: "https://fktr.in/wp06o7o"
+
+},
 
 {
 id:2,
-name:"Men's Shirt",
-category:"Men",
-subcategory:"Shirt", 
+name:"Maroon Self Design Lace Top With Slip",
+category:"Women's Fashion",
+subcategory:"Tops", 
 price:499,
 oldPrice:999,
 discount:"50% OFF",
 rating:4.4,
 delivery:"Free Delivery",
-image:"https://rukminim2.flixcart.com/image/612/612/xif0q/shirt/x/v/d/s-st2-vebnor-original-imahhy7edatnmfvx.jpeg?q=70",
-link:"https://fktr.in/z5Pd9Uh"
+image:"https://rukminim2.flixcart.com/image/612/612/xif0q/top/6/x/d/xl-ru-mrn-03-kappv-original-imah2254yhas4c6h.jpeg?q=70",
+link:"https://myntr.it/zwci6MC"
 },
 
 {
