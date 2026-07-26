@@ -48,8 +48,8 @@ function displayProducts(data) {
                 </button>
 
                 <a href="${item.link}" target="_blank">
-                    <button class="buy-btn">
-                        Buy Now
+                    <button class="Open">
+                        Open
                     </button>
                 </a>
 
@@ -184,7 +184,7 @@ function openProduct(id){
     document.getElementById("modalPrice").innerText = "₹" + product.price;
     document.getElementById("modalRating").innerText = "⭐ " + product.rating;
     document.getElementById("modalDelivery").innerText = product.delivery;
-    document.getElementById("buyNowLink").href = product.link;
+    document.getElementById("OpenLink").href = product.link;
 
 }
 
