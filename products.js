@@ -433,5 +433,18 @@ link:"https://fktr.in/fVZIo7i"
   delivery: "Free Delivery",
   image: "https://images.meesho.com/images/products/402212611/r2xtg_512.avif?width=360",
   link: "https://bitli.in/pgLgg2e"
+},
+
+{
+  id: 36,
+  name: "Floral Print Straight Kurta",
+  category: "Woman's Fashion",
+  price: 399,
+  oldPrice: 1299,
+  discount: "86% OFF",
+  rating: 4.3,
+  delivery: "Free Delivery",
+  image: "https://assets.ajio.com/medias/sys_master/root/hb9/hea/15579759542302/-473Wx593H-461110350-blue-MODEL.jpg",
+  link: "https://ajiio.in/knueyU0"
 }
 ];
